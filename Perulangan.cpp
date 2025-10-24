@@ -8,7 +8,7 @@ int main() {
 	cout << "Masukkan jumlah data: ";
 	cin >> n;
 
-	for (int i = 1; i < n; i++) {
+	for (int i = 0; i < n; i++) {
 		int data;
 		cout << "Masukkan data ke-" << i << ": ";
 		cin >> data;
@@ -26,4 +26,5 @@ int main() {
 
 
 	return 0;
+
 }
